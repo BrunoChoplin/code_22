@@ -1,0 +1,106 @@
+body {
+  	background: #ffffff;
+  	background: url("../images/bois_1.jpg");
+}
+#horiz {
+	position: absolute;
+	height:1px;
+	width: 100%;
+}
+#vertic {
+	position: absolute;
+	height:100%;
+	width: 1px;
+}
+
+#cache {
+	position: absolute;
+	top: -300px;
+	left: 0;
+}
+
+#page {
+	position absolute;
+	margin: 0;
+	padding: 0;
+}
+#page div.corps {
+	position: absolute;
+	width:110px;
+	height:80px;
+	top: 400px;
+	left: -100px;
+	margin-left: -55px;
+	margin-top: -40px;
+}
+#page img.origine {
+	position: absolute;
+	left: -10px;
+	top: -10px;
+}
+#page img.tronc {
+	position: absolute;
+	left: 2px;
+	top: 23px;
+	transition: transform 0.3s;
+}
+#page img.p_0 {
+	position: absolute;
+	left: 0px;
+	top: 2px;
+}
+#page img.p_1 {
+	position: absolute;
+	transform: rotateX(180deg);
+	left: 0px;
+	top: 52px;
+}
+#page img.p_2 {
+	position: absolute;
+	left: 24px;
+	top: 0px;
+}
+#page img.p_3 {
+	position: absolute;
+	transform: rotateX(180deg);
+	left: 24px;
+	top: 53px;
+}
+#page img.p_4 {
+	position: absolute;
+	left: 60px;
+	top: 0px;
+}
+#page img.p_5 {
+	position: absolute;
+	transform: rotateX(180deg);
+	left: 60px;
+	top: 47px;
+}
+#page img.a_0 {
+	position: absolute;
+	left: 80px;
+	top: 0px;
+}
+#page img.a_1 {
+	position: absolute;
+	transform: rotateX(180deg);
+	left: 80px;
+	top: 42px;
+}
+	
+#pix {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	background: #000;
+	width: 2px;
+	height: 2px;
+}
+#output {
+	position: absolute;
+	top: 50px;
+	left: 20px;
+}
+
